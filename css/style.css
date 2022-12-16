@@ -1,0 +1,91 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style */
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 191, 255, 0.5);
+    background-image: url(../img/pattern.png);
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #5B72FA;
+    box-shadow: 0px 0px 28px 8px rgba(0,0,0,0.69);
+}
+
+.container h1 {
+    color: #fff;
+}
+
+.container h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.container p {
+    height: 40px;
+    padding: 10px 0;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+/* Media Query */
+@media all and (max-width: 1441px) {
+
+    .container {
+        width: 40%;
+    }
+
+}
+
+@media all and (max-width: 1025px) {
+
+    .container {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 769px) {
+
+    .container {
+        width: 60%;
+        padding: 50px 30px;
+    }
+
+}
+
+@media all and (max-width: 426px) {
+
+    .container {
+        width: 90%;
+        padding: 50px 10px;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container h2 {
+        font-size: 17px;
+    }
+    
+}
